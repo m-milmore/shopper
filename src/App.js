@@ -138,7 +138,6 @@ const App = () => {
             <ShopperContainer
               appState={appState}
               handleAddItemsToCart={handleAddItemsToCart}
-              handleChangeQuantity={handleChangeQuantity}
             />
           </Route>
           <Route path="/checkout">

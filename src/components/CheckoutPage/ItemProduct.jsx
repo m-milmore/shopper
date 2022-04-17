@@ -1,7 +1,7 @@
 import React from "react";
 import truncate from "lodash.truncate";
 
-const ItemProduct = ({ card, handleChangeQuantity }) => {
+const ItemProduct = ({ card }) => {
   const cleanDesc = truncate(card.desc.replace(/<\/?[^>]+(>|$)/g, ""));
 
   return (

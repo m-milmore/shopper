@@ -23,7 +23,6 @@ const ItemRow = ({ item, data, handleRemoveItem, handleChangeQuantity }) => {
             <div className="col-10 text-start">
               <ItemProduct
                 card={card}
-                handleChangeQuantity={handleChangeQuantity}
               />
             </div>
           </div>

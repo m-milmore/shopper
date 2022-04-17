@@ -4,7 +4,6 @@ import ProductCard from "./ProductCard";
 const ShopperContainer = ({
   appState: { data, loading, error, itemsToCart },
   handleAddItemsToCart,
-  handleChangeQuantity,
 }) => {
   return (
     <div className="container px-0">
@@ -17,7 +16,6 @@ const ShopperContainer = ({
               key={product.id}
               handleAddItemsToCart={handleAddItemsToCart}
               itemsToCart={itemsToCart}
-              handleChangeQuantity={handleChangeQuantity}
             />
           ))
         ) : (

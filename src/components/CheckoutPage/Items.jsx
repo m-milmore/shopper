@@ -26,7 +26,6 @@ const Items = ({
                 data={data}
                 handleRemoveItem={handleRemoveItem}
                 handleChangeQuantity={handleChangeQuantity}
-                itemsToCart={itemsToCart}
               />
             ))}
           </>

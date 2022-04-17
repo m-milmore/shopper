@@ -25,7 +25,7 @@ export class ShopperService {
             price: product.price.formatted_with_symbol,
             image: product.image.url,
             category: product.categories[0].name,
-            quantity: product.inventory.available,
+            quantity: product.inventory.available,  
           }));
           success({ response, data });
         } else {

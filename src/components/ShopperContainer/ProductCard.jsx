@@ -1,11 +1,6 @@
 import React from "react";
 
-const ProductCard = ({
-  product,
-  handleAddItemsToCart,
-  itemsToCart,
-  handleChangeQuantity,
-}) => {
+const ProductCard = ({ product, handleAddItemsToCart, itemsToCart }) => {
   const { title, price, image, id, quantity } = product;
 
   return (
